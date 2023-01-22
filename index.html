@@ -80,6 +80,7 @@
     </header>
 
     <main class="container mx-auto px-8 md:px-10 lg:px-5">
+
       <!-- Featured Product Section -->
       <section class="my-32 text-center">
         <h3 class="text-5xl font-semibold">
@@ -176,7 +177,7 @@
           </div>
           <div class="mt-10 md:mt-12 lg:mt-0">
             <h3 class="text-5xl font-semibold">
-              Great Tea, <span class="text-green-500">Freshly</span>
+              Great Tea, <span class="bg-green-500 px-2">Freshly</span>
               <br />
               Presented
             </h3>
@@ -386,10 +387,76 @@
 
         </div>
       </section>
+
     </main>
 
-    <footer>
-        
+    <footer class="mt-32 py-32 bg-gradient-to-r from-[#fff7ed] to-green-200 px-8 md:px-10 lg:px-5">
+        <section class="container mx-auto flex flex-col justify-center">
+            <div class="md:flex justify-between items-center gap-8 mb-20">
+                <div>
+                    <img src="images/cup.png" class="mb-10 md:mb-0" alt="">
+                </div>
+                <div class="flex gap-8 justify-center items-center">
+                    <p class="text-base font-bold text-[#1C1C1C]">Ready to get started?</p>
+                    <button
+                        class="text-white text-xl font-bold bg-gradient-to-r from-[orange] to-[red] p-4 rounded-md"> 
+                        Get Started
+                    </button>
+                </div>
+            </div>
+
+            <hr class="border-black border-2">
+
+            <div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-20 gap-8">
+                    <div class="space-y-5">
+                        <h3 class="font-bold text-xl">Quick Links</h3>
+                        <p class="text-base font-regular text-[#1C1C1C]">Home</p>
+                        <p class="text-base font-regular text-[#1C1C1C]">About Us</p>
+                        <p class="text-base font-regular text-[#1C1C1C]">Insurance</p>
+                        <p class="text-base font-regular text-[#1C1C1C]">Privacy Policy</p>
+                    </div>
+                    <div class="space-y-5">
+                        <h3 class="font-bold text-xl">Our Service</h3>
+                        <p class="text-base font-regular text-[#1C1C1C]">Life Insurance</p>
+                        <p class="text-base font-regular text-[#1C1C1C]">Car Insurance</p>
+                        <p class="text-base font-regular text-[#1C1C1C]">Health Insurance</p>
+                        <p class="text-base font-regular text-[#1C1C1C]">House Insurance</p>
+                    </div>
+                    <div class="space-y-5">
+                        <h3 class="font-bold text-xl">Help</h3>
+                        <p class="text-base font-regular text-[#1C1C1C]">FAQs</p>
+                        <p class="text-base font-regular text-[#1C1C1C]">Contact Us</p>
+                    </div>
+                    <div class="space-y-5">
+                        <h3 class="font-bold text-2xl">Subscribe to our 
+                            <br>
+                            newsletter
+                        </h3>
+                        <div class="flex items-center">
+                            <input type="email" name="email" placeholder="Email address" id="" class="bg-transparent text-[#1C1C1C] text-base h-10 pr-5 border-0 border-b-2 border-black">
+                            <button
+                                    class="text-white font-extrabold ml-2 md:ml-5 bg-gradient-to-r from-[orange] to-[red] h-6 w-5 p-5 flex items-center justify-center rounded-full"
+                                >
+                                <i class="fa-solid fa-angle-right"></i>
+                            </button>
+                        </div>
+                        <div class="flex gap-8 mt-8">
+                            <div><i class="fa-brands fa-facebook-f fa-lg"></i></div>
+                            <div><i class="fa-brands fa-twitter fa-xl"></i></div>
+                            <div><i class="fa-brands fa-instagram fa-xl"></i></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex justify-center mt-20 text-base text-regular text-[#1C1C1C]">
+                <p>
+                    © 2027 UIDesign.to - All rights reserved.
+                </p>
+            </div>
+        </section>
     </footer>
   </body>
 </html>
